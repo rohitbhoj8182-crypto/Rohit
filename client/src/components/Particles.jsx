@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-const PARTICLE_COUNT = 110;
+const PARTICLE_COUNT = 500;
 
 export default function Particles() {
   const canvasRef = useRef(null);
